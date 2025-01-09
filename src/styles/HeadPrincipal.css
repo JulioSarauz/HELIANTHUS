@@ -2,6 +2,7 @@
     background: #a0e4e9; /* Fondo celeste claro */
     color: white;
     position: relative;
+    padding-bottom: 50px;
   }
   
   .content {
