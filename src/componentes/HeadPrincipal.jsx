@@ -2,11 +2,14 @@ import React from 'react';
 import './../styles/HeadPrincipal.css'; 
 
 const HeadPrincipal = () => {
-
-    const mensaje = "https://wa.me/593984538479?text=Quiero%20una%20cita";
     const EnviarMensaje = () => {
-        window.location.href = mensaje;
-    }
+        console.log("dirigir");
+        
+        const numeroTelefono = '593984538479'; // Reemplaza con el número real
+        const mensaje = 'Quiero una cita';
+        const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
+        window.open(url, '_blank'); // Abre el enlace en una nueva pestaña
+      };
 
   return (
     <header className="head-principal">
@@ -16,14 +19,13 @@ const HeadPrincipal = () => {
           <div className="text">
             <h1 className="title">Helianthus</h1>
             <p className="subtitle">Cuidamos tu piel, realzamos tu belleza</p>
-            <button className="cta-button" onClick={EnviarMensaje} >
-                <img src="assets/iconos/reserva.png" alt="" className='reserva-icon'/>
+            <button className="cta-button" onClick={EnviarMensaje}>
+                <img src="assets/iconos/reserva.png" alt="Reserva" className="reserva-icon" />
                 Reserva tu cita
             </button>
           </div>
         </div>
       </div>
-      <div className="wave"></div>
       
     </header>
   );
