@@ -1,14 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Inicio } from "../rutas/Inicio";
 
 
 export const AppRouter = () => {
     return (
         <Router>
-            <InactividadProvider>
                 <Routes>
-                    {/* <Route path="*" element={<NoEncontrada />} /> */}
+                    <Route path="/" element={<Inicio />} />
                 </Routes>
-            </InactividadProvider>
         </Router>
     );
 };
