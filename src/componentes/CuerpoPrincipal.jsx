@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import './../styles/CuerpoPrincipal.css';
 import CardVertical from './CardVertical';
 import Card from './Card';
+import Card3 from './Card3';
 
 const CuerpoPrincipal = () => {
   return (
@@ -58,7 +59,16 @@ const CuerpoPrincipal = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-            <img src="assets/inicio/img3.jpg" alt="Slider 3" className="slider-image" />
+          <Card3
+              image='assets/inicio/image3.png'
+              title='Radiofrecuencia facial y corporal'
+              subtitle='Beneficios:'
+              content1='Disminuye las arrugas'
+              content2='Reduce la ceulitis'
+              content3='Combate estrías y flacidez'
+              content4='Elimina grasa localizada'
+              content5='Rejuvenecimiento de la piel'
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
