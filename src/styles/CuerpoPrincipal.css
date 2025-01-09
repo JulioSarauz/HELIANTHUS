@@ -1,0 +1,29 @@
+.cuerpo-principal {
+    background: linear-gradient(180deg, #a0e4e9, #054d4b); /* Degradado desde celeste a verde oscuro */
+    padding: 3rem 0 5rem; /* Más margen inferior */
+  }
+  
+  .my-swiper {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .slider-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* Ajusta según tu diseño */
+    border: 5px solid #0a7772; /* Borde del color de salud */
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 3rem; /* Margen inferior más grande */
+    object-fit: contain; /* Mantiene la proporción de la imagen */
+  }
+  
