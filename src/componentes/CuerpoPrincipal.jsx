@@ -4,7 +4,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './../styles/CuerpoPrincipal.css';
-import Card from './card';
+import Card from './Card';
 
 const CuerpoPrincipal = () => {
   return (
