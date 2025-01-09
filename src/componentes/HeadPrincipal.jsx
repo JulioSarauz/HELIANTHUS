@@ -16,7 +16,10 @@ const HeadPrincipal = () => {
           <div className="text">
             <h1 className="title">Helianthus</h1>
             <p className="subtitle">Cuidamos tu piel, realzamos tu belleza</p>
-            <button className="cta-button" onClick={EnviarMensaje} >Reserva tu cita</button>
+            <button className="cta-button" onClick={EnviarMensaje} >
+                <img src="assets/iconos/reserva.png" alt="" className='reserva-icon'/>
+                Reserva tu cita
+            </button>
           </div>
         </div>
       </div>
