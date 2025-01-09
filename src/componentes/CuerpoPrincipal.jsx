@@ -4,6 +4,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './../styles/CuerpoPrincipal.css';
+import CardVertical from './CardVertical';
 import Card from './Card';
 
 const CuerpoPrincipal = () => {
@@ -19,10 +20,10 @@ const CuerpoPrincipal = () => {
         <SwiperSlide>
           {/* limpieza facial profunda */}
           <div className="slide">
-            <Card 
-              image='assets/inicio/image1.png' 
-              title='Limpieza facial Profunda' 
-              subtitle='Incluye:' 
+            <Card
+              image='assets/inicio/image1.png'
+              title='Limpieza facial Profunda'
+              subtitle='Incluye:'
               content1='Gel de limpieza'
               content2='Exfoliante'
               content3='Vapor de ozono'
@@ -33,13 +34,26 @@ const CuerpoPrincipal = () => {
               content8='Dermaplanig'
               content9='Tónico según tipo de piel'
               content10='Crema hidratante'
-              content11='Protector Solar'/>
+              content11='Protector Solar' />
             {/* <img src="assets/inicio/img1.jpg" alt="Slider 1" className="slider-image" /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-            <img src="assets/inicio/img2.jpg" alt="Slider 2" className="slider-image" />
+            <CardVertical
+              image='assets/inicio/image2.png'
+              title='Pack Reducción de Medidas'
+              subtitle='Incluye:'
+              content1='2 Lipolíticos '
+              content2='6 Masajes reductores'
+              content3='6 Drenajes linfáticos '
+              content4='3 Mantas térmicas'
+              content5='5 Madero terapia'
+              content6='5 Ultra cavitación'
+              content7='5 Radiofrecuencia'
+              content8='5 Lipoláser no invasivo '
+              content9='5 Vacumterapia'
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>
