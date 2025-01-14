@@ -8,6 +8,7 @@ import CardVertical from './CardVertical';
 import Card from './Card1';
 import Card3 from './Card3';
 import Card2 from './Card2';
+import Card4 from './Card4';
 
 const CuerpoPrincipal = () => {
   return (
@@ -19,6 +20,7 @@ const CuerpoPrincipal = () => {
         loop={true}
         className="my-swiper"
       >
+    
         <SwiperSlide>
           {/* limpieza facial profunda */}
           <div className="slide">
@@ -87,7 +89,18 @@ const CuerpoPrincipal = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-            <img src="assets/inicio/img5.jpg" alt="Slider 5" className="slider-image" />
+          <Card4
+            title="Limpieza Facial"
+            image="assets/inicio/image5.png"
+            subtitle="Beneficios:"
+            content="Elimina impurezas y células muertas"
+            content1="Limpia poros a profundidad y reduce su tamaño"
+            content2="Permite que la piel se regenere y se oxigene"
+            content3="Active la circulación sanguínea "
+            content4="Tonifica los músculos faciales"
+            content5="Previene el envejecimiento prematuro"
+            />
+            {/* <img src="assets/inicio/img5.jpg" alt="Slider 5" className="slider-image" /> */}
           </div>
         </SwiperSlide>
       </Swiper>
