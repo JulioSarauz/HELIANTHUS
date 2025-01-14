@@ -1,65 +1,85 @@
 .head-principal {
-    background: #a0e4e9; /* Fondo celeste claro */
-    color: white;
-    position: relative;
-    padding-bottom: 50px;
-  }
-  
-  .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .logo-text {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 2rem; /* Espaciado entre el logo y el texto */
-  }
-  
-  .logo {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .text {
-    text-align: left;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-    margin: 0;
-  }
-  
-  .subtitle {
-    font-size: 1.2rem;
-    margin: 0.5rem 0 1rem;
-  }
-  
-  .cta-button {
-    background: #0a7772;
-    color: white;
-    padding: 10px 30px 10px 25px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .cta-button:hover {
-    background: #08615b;
-  }
-  
+  background: url('assets/inicio/portada.png') center/cover no-repeat; /* Imagen centrada y escalada */
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+  min-height: 60vh; /* Altura mínima reducida */
+  padding: 100px 0;
+}
 
-  
-  .reserva-icon{
-    width: 45px;
-    height: 25px;
-    padding-right: 15px;
-  }
+.head-principal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Capa oscura para contraste */
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  padding: 0px;
+  background: rgba(255, 255, 255, 0); /* Fondo claro detrás del texto */
+  border-radius: 0px; /* Esquinas más pronunciadas */
+  max-width: 800px;
+  margin: auto;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10%; /* Forma circular para el logo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  text-align: left;
+}
+
+.title {
+  font-size: 5.5rem;
+  margin: 0;
+  color: #17d4cb;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1rem;
+  color: #f0f0f0;
+}
+
+.cta-button {
+  background: #0a7772;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #08615b;
+}
+
+.reserva-icon {
+  width: 45px;
+  height: 25px;
+  padding-right: 15px;
+}
