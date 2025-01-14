@@ -1,5 +1,5 @@
 .head-principal {
-  background: url('assets/inicio/portada.png') center/cover no-repeat; /* Imagen centrada y escalada */
+  background: url('/assets/inicio/portada.png') center/cover no-repeat; /* Imagen centrada y escalada */
   background-attachment: fixed;
   color: white;
   position: relative;
