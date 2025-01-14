@@ -5,8 +5,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './../styles/CuerpoPrincipal.css';
 import CardVertical from './CardVertical';
-import Card from './Card';
+import Card from './Card1';
 import Card3 from './Card3';
+import Card2 from './Card2';
 
 const CuerpoPrincipal = () => {
   return (
@@ -73,7 +74,15 @@ const CuerpoPrincipal = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-            <img src="assets/inicio/img4.jpg" alt="Slider 4" className="slider-image" />
+          <Card2
+         titulo1="Electrocauterización de Lunares"
+         detalle1="Elimina lunares y lesiones cutáneas de forma segura y precisa. ¡Recupera la confianza en tu piel con este procedimiento rápido y eficaz!"
+         titulo2="Pen Fibroblast para Arrugas y Cicatrices"
+         detalle2="Innovadora tecnología que rejuvenece tu piel al reducir arrugas y mejorar cicatrices. ¡Resultados visibles desde la primera sesión!"
+         titulo3="Electroporación Despigmentante"
+         detalle3="Aclara manchas y unifica el tono de tu piel mediante la aplicación de activos despigmentantes sin dolor. ¡Luce una piel radiante y uniforme!"
+        />
+            {/* <img src="assets/inicio/img4.jpg" alt="Slider 4" className="slider-image" /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide>
