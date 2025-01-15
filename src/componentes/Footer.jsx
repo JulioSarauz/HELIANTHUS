@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p className='footer-derechos'>&copy; {new Date().getFullYear()} Helianthus Centro Dermatológica. Todos los derechos reservados.</p>
+        <p className='footer-derechos'>&copy; {new Date().getFullYear()} Helianthus (Dermatology Center). Todos los derechos reservados.</p>
       </div>
     </footer>
   );
