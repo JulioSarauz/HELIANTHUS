@@ -1,5 +1,6 @@
 import React from 'react';
 import './../styles/HeadPrincipal.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const HeadPrincipal = () => {
     const EnviarMensaje = () => {
@@ -14,16 +15,18 @@ const HeadPrincipal = () => {
   return (
     <header className="head-principal">
       <div className="content">
-        <div className="logo-text">
-          <img src="assets/inicio/logo.png" alt="Logo Clínica" className="logo" />
-          <div className="text">
+        <div className="row align-items-center logo-text">
+          <div className="col-md-3 text-center mb-4 mb-md-0">
+             <img src="assets/inicio/logo.png" alt="Logo Clínica" className="logo" />
+          </div>
+          <div className="col-md-8 text-center ">
             <h1 className="title">Helianthus</h1>
             <p className="subtitle">Cuidamos tu piel, realzamos tu belleza</p>
             <button className="cta-button" onClick={EnviarMensaje}>
                 <img src="assets/iconos/reserva.png" alt="Reserva" className="reserva-icon" />
                 Reserva tu cita
             </button>
-          </div>
+          </div>         
         </div>
       </div>
       

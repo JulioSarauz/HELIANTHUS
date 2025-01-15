@@ -41,20 +41,17 @@
 }
 
 .logo { 
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   border-radius: 10%; /* Forma circular para el logo */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-left: 2rem;
 }
 
-.text {
-  text-align: left;
-}
 
 .title {
-  font-size: 2rem;
+  font-size: 4.5rem;
   font-weight: bold;
   font-style: italic;
   text-decoration: underline  dotted;
