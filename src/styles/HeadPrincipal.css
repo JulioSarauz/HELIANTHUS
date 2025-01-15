@@ -69,18 +69,19 @@
 }
 
 .cta-button {
-  background: #0a777275;
+  background: #14aca475;
+  border: 1px solid #14aca475;
   color: white;
   padding: 25px 20px;
-  border: none;
-  border-radius: 5px;
+  border-radius: 50px 0px 50px 0px;
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.3s;
 }
 
 .cta-button:hover {
-  background: #08615b;
+  background: #ffffff00;
+  border: 1px solid #14aca475;
 }
 
 .reserva-icon {
