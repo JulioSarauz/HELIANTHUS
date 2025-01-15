@@ -20,6 +20,7 @@
   .footer-email {
     font-size: 1rem;
     margin: 0.5rem 0;
+    color: rgb(160, 160, 160);
   }
   
   .footer-contact a,
@@ -55,4 +56,6 @@
     padding-top: 1rem;
     color: #cceef5;
   }
-  
+  .footer-derechos{
+    color: rgb(160, 160, 160) !important;
+  }

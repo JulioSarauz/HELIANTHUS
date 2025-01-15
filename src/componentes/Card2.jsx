@@ -4,7 +4,7 @@ import './../styles/Card2.css'; // Opcional para estilos personalizados
 
 const Card2 = ({titulo1, detalle1, titulo2, detalle2,titulo3, detalle3, titulo4, detalle4}) => {
   return (
-    <div className="container mt-4">
+    <div className="container">
       <div className="row">
         {/* Fila 1 */}
         <div className="col-md-6 d-flex justify-content-center align-items-center">
@@ -19,8 +19,7 @@ const Card2 = ({titulo1, detalle1, titulo2, detalle2,titulo3, detalle3, titulo4,
             </div>
           </div>
           <div className="row">
-            <div className="col-md-2"><img src="assets/iconos/check.png" alt="" className='check'/></div>
-            <div className="col-md-10"><p>{detalle1}</p></div>
+            <div className="col-md-10"><p><img src="assets/iconos/check.png" alt="" className='check'/>{detalle1}</p></div>
           </div>
 
           <div className="row">
@@ -29,8 +28,7 @@ const Card2 = ({titulo1, detalle1, titulo2, detalle2,titulo3, detalle3, titulo4,
             </div>
           </div>
           <div className="row">
-            <div className="col-md-2"><img src="assets/iconos/check.png" alt="" className='check'/></div>
-            <div className="col-md-10"><p>{detalle2}</p></div>
+            <div className="col-md-10"><p><img src="assets/iconos/check.png" alt="" className='check'/>{detalle2}</p></div>
           </div>
         </div>
       </div>
@@ -45,8 +43,7 @@ const Card2 = ({titulo1, detalle1, titulo2, detalle2,titulo3, detalle3, titulo4,
             </div>
           </div>
           <div className="row">
-            <div className="col-md-2"><img src="assets/iconos/check.png" alt="" className='check'/></div>
-            <div className="col-md-10"><p>{detalle3}</p></div>
+            <div className="col-md-10"><p><img src="assets/iconos/check.png" alt="" className='check'/>{detalle3}</p></div>
           </div>
         </div>
         <div className="col-md-6 d-flex justify-content-center align-items-center">

@@ -20,7 +20,7 @@ const CuerpoPrincipal = () => {
         loop={true}
         className="my-swiper"
       >
-    
+
         <SwiperSlide>
           {/* limpieza facial profunda */}
           <div className="slide">
@@ -62,7 +62,7 @@ const CuerpoPrincipal = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-          <Card3
+            <Card3
               image='assets/inicio/image3.png'
               title='Radiofrecuencia facial y corporal'
               subtitle='Beneficios:'
@@ -76,29 +76,29 @@ const CuerpoPrincipal = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-          <Card2
-         titulo1="Electrocauterización de Lunares"
-         detalle1="Elimina lunares y lesiones cutáneas de forma segura y precisa. ¡Recupera la confianza en tu piel con este procedimiento rápido y eficaz!"
-         titulo2="Pen Fibroblast para Arrugas y Cicatrices"
-         detalle2="Innovadora tecnología que rejuvenece tu piel al reducir arrugas y mejorar cicatrices. ¡Resultados visibles desde la primera sesión!"
-         titulo3="Electroporación Despigmentante"
-         detalle3="Aclara manchas y unifica el tono de tu piel mediante la aplicación de activos despigmentantes sin dolor. ¡Luce una piel radiante y uniforme!"
-        />
+            <Card2
+              titulo1="Electrocauterización de Lunares"
+              detalle1="Elimina lunares y lesiones cutáneas de forma segura y precisa. ¡Recupera la confianza en tu piel con este procedimiento rápido y eficaz!"
+              titulo2="Pen Fibroblast para Arrugas y Cicatrices"
+              detalle2="Innovadora tecnología que rejuvenece tu piel al reducir arrugas y mejorar cicatrices. ¡Resultados visibles desde la primera sesión!"
+              titulo3="Electroporación Despigmentante"
+              detalle3="Aclara manchas y unifica el tono de tu piel mediante la aplicación de activos despigmentantes sin dolor. ¡Luce una piel radiante y uniforme!"
+            />
             {/* <img src="assets/inicio/img4.jpg" alt="Slider 4" className="slider-image" /> */}
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slide">
-          <Card4
-            title="Limpieza Facial"
-            image="assets/inicio/image5.png"
-            subtitle="Beneficios:"
-            content="Elimina impurezas y células muertas"
-            content1="Limpia poros a profundidad y reduce su tamaño"
-            content2="Permite que la piel se regenere y se oxigene"
-            content3="Active la circulación sanguínea "
-            content4="Tonifica los músculos faciales"
-            content5="Previene el envejecimiento prematuro"
+            <Card4
+              title="Limpieza Facial"
+              image="assets/inicio/image5.png"
+              subtitle="Beneficios:"
+              content="Elimina impurezas y células muertas"
+              content1="Limpia poros a profundidad y reduce su tamaño"
+              content2="Permite que la piel se regenere y se oxigene"
+              content3="Active la circulación sanguínea "
+              content4="Tonifica los músculos faciales"
+              content5="Previene el envejecimiento prematuro"
             />
             {/* <img src="assets/inicio/img5.jpg" alt="Slider 5" className="slider-image" /> */}
           </div>
